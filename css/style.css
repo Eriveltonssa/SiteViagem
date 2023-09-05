@@ -161,11 +161,11 @@ html {
     width: 1.7vw;
 }
 
-/* _____NAV 1 MIDIA SCREEM 450PX __________ */
-@media screen and (max-width:400px) {
+/* _____NAV 1 MIDIA SCREEM 390PX __________ */
+@media screen and (max-width:390px) {
     
 .nav-1 {
-    background-color: rgba(231, 227, 227, 0.452);
+    background-color:aliceblue;
     width: 100vw;
     display: flex;
     justify-content: space-between;
@@ -364,8 +364,8 @@ html {
     width: 1.7vw;
 }
 
- /* _____NAV 2 MIDIA SCREEM 450PX __________ */
-@media screen and (max-width:400px){
+ /* _____NAV 2 MIDIA SCREEM 390PX __________ */
+@media screen and (max-width:390px){
    
 
 .nav-2 {
@@ -375,7 +375,7 @@ html {
     z-index: 2;
     align-items: center;
     justify-content: center;
-    height: 10vh;
+    height: 8vh;
     box-shadow: 1px 1px 0.7rem black;
     background-color: white;
    
@@ -390,7 +390,7 @@ html {
     width: 100%;
     display: flex;
     margin: 0 auto;
-    height: 10vh;
+    height: 8vh;
     align-items: center;
 
 }
@@ -403,7 +403,7 @@ html {
   justify-content: center;
 }
 .ul-device li a{
-    font-size: 2.4vw;
+    font-size: 2.5vw;
     width: 100%;
     height: 8vh;
     
@@ -456,11 +456,9 @@ html {
 
 .home a {
     background-color: #ccac00;
-    margin-left: 1vw;
     color: white;
     font-weight: bolder;
     height: 100%;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -539,13 +537,16 @@ html {
 
 
 /* __dropdown-menu__ */
-.dropdown-menu {
+.ul-device .dropdown-menu {
     display: none;
     position: absolute;
     height: 40vh;
-    width: 12vw;
-    top: 100%;
+    width: 28vw;
+    margin-left: 8vw;
+
     border-radius: 1px;
+ 
+    
     
     background-color: rgb(231, 227, 227);
 
@@ -566,9 +567,10 @@ html {
     width: 12vw;
 }
 
-.dropdown-menu li {
+.ul-device .dropdown-menu li {
     
-    width: 30vw;
+    width:100%;
+   
 
     position: relative;
     display: flex;
@@ -607,7 +609,7 @@ html {
     display: none;
     position: absolute;
     height: 25vh;
-    width: 25vw;
+    width: 26vw;
     top: 100%;
     
 
@@ -668,6 +670,7 @@ html {
     top: 100%;
     background-color: red;
     background-color: rgb(231, 227, 227);
+    margin-right: 6vw;
 }
 
 .dropdown-tarifa {
@@ -968,15 +971,16 @@ html {
 
 }
 
-
-@media screen and (max-width:400px) {
-   /* section 1 */
+/* section 1 midia screem 390px */
+@media screen and (max-width:390px) {
+   
 
 .section-1 {
 
     width: 100vw;
     height: 80vw;
     background-color: aliceblue;
+   
 
    
 
@@ -993,9 +997,9 @@ html {
     box-shadow: 2px 2px 2rem black;
     border-radius: 10px;
     width: 95vw;
-    height: 60vh;
+    height: 50vh;
     position: absolute;
-    margin-top: 50vh;
+    margin-top: 16vh;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -1008,10 +1012,10 @@ html {
 }
 
 .text-info {
-
+ 
     padding: 1rem;
     width: 100%;
-    height: 30%;
+    height: 25%;
    
     
 }
@@ -1048,8 +1052,8 @@ html {
 
     padding: 1rem;
     width: 100%;
-    height: 70%;
-    font-size: 2.5vw;
+    height: 75%;
+    font-size: 2.8vw;
     margin-top: -2vh;
     
 
@@ -1120,13 +1124,14 @@ html {
 }
 
 /* section-2 midia 450px */
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     
 
 .section-2 {
 
     width: 100vw;
-     margin-top: 80vh;
+     margin-top: 50vh;
+
     
   
 
@@ -1144,10 +1149,11 @@ html {
     display: flex;
 
     width: 95vw;
-    height: 60vh;
+    height: 40vh;
     margin: 0 auto;
     justify-content: center;
     flex-direction: column;
+    margin-top: 3vh;
     
 
 }
@@ -1225,16 +1231,16 @@ html {
 
 
 
-
-@media screen and (max-width:400px) {
-    /* section 3 */
+/* section  midia screem 450px3 */
+@media screen and (max-width:390px) {
+    
 
 
 .section-3{
     width: 95vw;
     margin: 0 auto;
     height: 35vh;
-    margin-top: 4vh;
+    margin-top: -18vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1337,8 +1343,8 @@ html {
  
     
 }
-/* section4 midia screm 450px*/
-@media screen and (max-width:400px) {
+/* section4 midia screm 390px*/
+@media screen and (max-width:390px) {
    
 .section-4{
   
@@ -1457,14 +1463,15 @@ svg{
 
 
 
- /* section-5  midia 450px*/
-@media screen and (max-width:400px) {
+ /* section-5  midia 390px*/
+@media screen and (max-width:390px) {
   
 .section-5{
    
-    height: 60vh;
+    height: 40vh;
     width: 100vw;
     margin-top: 5vh;
+    
     
     
 
@@ -1480,6 +1487,7 @@ svg{
     height: 50%;
     width: 100%;
     display: none;
+ 
     
 }
 
@@ -1596,7 +1604,7 @@ svg{
 
 
 /* section-6  midia 450px*/
-@media screen and (max-width:400px) {
+@media screen and (max-width:450px) {
     
     .section-6 .parallax{
         font-size: 8vw;
