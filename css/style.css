@@ -162,8 +162,8 @@ html {
 }
 
 
-/* _____NAV 1 MIDIA SCREEM 450PX __________ */
-@media screen and (max-width:450px) {
+/* _____NAV 1 MIDIA SCREEM 480PX __________ */
+@media screen and (max-width:480px) {
     
     .nav-1 {
         background-color:aliceblue;
@@ -213,8 +213,8 @@ html {
     }
     
 
-/* _____NAV 1 MIDIA SCREEM 390PX __________ */
-@media screen and (max-width:390px) {
+/* _____NAV 1 MIDIA SCREEM 320PX __________ */
+@media screen and (max-width:320px) {
     
 .nav-1 {
     background-color:aliceblue;
@@ -417,8 +417,8 @@ html {
 }
 
 
-/* _____NAV 2 MIDIA SCREEM 450PX __________ */
-@media screen and (max-width:450px){
+/* _____NAV 2 MIDIA SCREEM 480PX __________ */
+@media screen and (max-width:480px){
    
 
     .nav-2 {
@@ -771,8 +771,8 @@ html {
     }
 
 
- /* _____NAV 2 MIDIA SCREEM 390PX __________ */
-@media screen and (max-width:390px){
+ /* _____NAV 2 MIDIA SCREEM 320PX __________ */
+@media screen and (max-width:320px){
    
 
 .nav-2 {
@@ -800,6 +800,7 @@ html {
     height: 8vh;
     align-items: center;
 
+
 }
 .ul-device li{
  
@@ -810,9 +811,12 @@ html {
   justify-content: center;
 }
 .ul-device li a{
-    font-size: 2.5vw;
-    width: 100%;
+    font-size: 2.7vw;
+    width: 11vw;
     height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
     
     font-weight: bolder;
@@ -855,6 +859,7 @@ html {
 .nav-2 li:hover {
   background-color: #ccac00;
   color: white;
+  width: 100%;
 
 
 }
@@ -1073,11 +1078,11 @@ html {
     display: none;
     position: absolute;
     height: 15vh;
-    width: 20vw;
+    width: 25vw;
     top: 100%;
     background-color: red;
     background-color: rgb(231, 227, 227);
-    margin-right: 6vw;
+    margin-right: -1vw;
 }
 
 .dropdown-tarifa {
@@ -1378,8 +1383,8 @@ html {
 
 }
 
-/* section 1 midia screem450px */
-@media screen and (max-width:450px) {
+/* section 1 midia screem480px */
+@media screen and (max-width:480px) {
    
 
     .section-1 {
@@ -1471,8 +1476,8 @@ html {
 
 
 
-/* section 1 midia screem 390px */
-@media screen and (max-width:390px) {
+/* section 1 midia screem 320px */
+@media screen and (max-width:320px) {
    
 
 .section-1 {
@@ -1499,7 +1504,7 @@ html {
     width: 95vw;
     height: 50vh;
     position: absolute;
-    margin-top: 16vh;
+    margin-top: 23vh;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -1628,7 +1633,7 @@ html {
 
 
 /* section-2 midia 450px */
-@media screen and (max-width:450px) {
+@media screen and (max-width:480px) {
     
 
     .section-2 {
@@ -1699,8 +1704,8 @@ html {
     
 
 
-/* section-2 midia390px */
-@media screen and (max-width:390px) {
+/* section-2 midia 320px */
+@media screen and (max-width:320px) {
     
 
 .section-2 {
@@ -1808,8 +1813,8 @@ html {
 
 
 
-/* section  midia screem 450px3 */
-@media screen and (max-width:450px) {
+/* section  midia screem 480px3 */
+@media screen and (max-width:480px) {
     
 
 
@@ -1845,8 +1850,8 @@ html {
     
     }
 
-/* section  midia screem 450px3 */
-@media screen and (max-width:390px) {
+/* section  midia screem 320px3 */
+@media screen and (max-width:320px) {
     
 
 
@@ -1854,7 +1859,7 @@ html {
     width: 95vw;
     margin: 0 auto;
     height: 35vh;
-    margin-top: -18vh;
+    margin-top: -15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1958,8 +1963,8 @@ html {
     
 }
 
-/* section4 midia screm 450px*/
-@media screen and (max-width:450px) {
+/* section4 midia screm 480px*/
+@media screen and (max-width:480px) {
    
     .section-4{
       
@@ -2029,13 +2034,13 @@ html {
     }
 
 
-/* section4 midia screm 390px*/
-@media screen and (max-width:390px) {
+/* section4 midia screm 320px*/
+@media screen and (max-width:320px) {
    
 .section-4{
   
     width: 100%; 
-    height: 120vh;
+    height: 100vh;
     display: flex;
     padding: 2rem;
     align-items:center;
@@ -2148,7 +2153,7 @@ svg{
 
 
  /* section-5  midia 450px*/
- @media screen and (max-width:450px) {
+ @media screen and (max-width:480px) {
   
     .section-5{
        
@@ -2195,8 +2200,8 @@ svg{
     } 
     }
 
- /* section-5  midia 390px*/
-@media screen and (max-width:390px) {
+ /* section-5  midia 320px*/
+@media screen and (max-width:320px) {
   
 .section-5{
    
@@ -2335,8 +2340,8 @@ svg{
 }
 
 
-/* section-6  midia 450px*/
-@media screen and (max-width:450px) {
+/* section-6  midia 480px*/
+@media screen and (max-width:480px) {
     
     .section-6 .parallax{
         font-size: 8vw;
@@ -2433,8 +2438,8 @@ margin-bottom: 2vh;
 }
 }
 
-/* section-6  midia 390px*/
-@media screen and (max-width:390px) {
+/* section-6  midia 320px*/
+@media screen and (max-width:320px) {
     
     .section-6 .parallax{
         font-size: 8vw;
@@ -2530,6 +2535,9 @@ margin-bottom: 2vh;
    
 }
 }
+
+
+
 
 
 /* section-7 */
